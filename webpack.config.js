@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //自动化创建文件
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {VueLoaderPlugin}=require('vue-loader')
 
 module.exports = {
     entry: {
@@ -20,16 +21,23 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader'
       }, {
-        test: /\.scss$/,
+        test: /\.(scss|sass)$/,
         loader: 'style-loader!css-loader!sass-loader'
       }, {
           test: /\.css$/,
           loader: "vue-style-loader!css-loader"
       }]
     },
+    resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.esm.js' // 用 webpack 1 时需用 'vue/dist/vue.common.js'
+        }
+    },
     plugins: [
+        new VueLoaderPlugin(),
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
+            template: './app/views/index.html',
             title: 'Development'
         })
     ],
