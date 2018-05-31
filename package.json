@@ -4,25 +4,35 @@
   "description": "",
   "main": "webpack.config.js",
   "dependencies": {
+    "px2rem-loader": "^0.1.9",
     "vue": "^2.5.16",
-    "vue-router": "^3.0.1"
-  },
-  "devDependencies": {
-    "webpack-cli": "^2.1.4",
+    "vue-router": "^3.0.1",
     "clean-webpack-plugin": "^0.1.19",
-    "html-webpack-plugin": "^3.2.0",
     "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.0",
+    "noopener": "^1.0.6",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "vue-loader": "^15.2.2",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4"
   },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-eslint-plugin": "^1.4.0",
+    "eslint-plugin-vue-libs": "^3.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --env.production"
   },
   "repository": {
     "type": "git",

@@ -5,9 +5,9 @@ import Home from '../home/indexs.vue'
 Vue.use(Router)
 
 export default new Router({
-    routes: [{
-        path: '/home',
-        name: 'home',
-        component: Home
-    }]
+  routes: [{
+    path: '/home',
+    name: 'home',
+    component: Home
+  }]
 })
