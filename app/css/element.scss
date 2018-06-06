@@ -15,7 +15,7 @@
 @mixin list ($direction: column) {
   @include flex($direction)
 }
-@mixin panel ($bgColor: #fff, $padding: 0, $margin: 20px 0, $height: 112px, $textPadding: 0 32px, $color: #333, $fontSize: 32px) {
+@mixin panel ($bgColor: #fff, $padding: 0, $margin: 20px 0, $height: 112px, $textPadding: 0 32px, $color: #355976, $fontSize: 32px) {
   background-color: $bgColor;
   padding: $padding;
   margin: $margin;
