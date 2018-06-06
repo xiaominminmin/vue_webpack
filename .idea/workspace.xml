@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8af92274-d3cb-43ac-9f1f-443cfe8d8669" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/core/citySelected.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/core/panel.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/city-picker.data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/city-picker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/city.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/element.scss" afterPath="$PROJECT_DIR$/app/css/element.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/reset.scss" afterPath="$PROJECT_DIR$/app/css/reset.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/home/indexs.vue" afterPath="$PROJECT_DIR$/app/js/home/indexs.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="vue_webpack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +28,8 @@
       <file leaf-file-name="indexs.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/home/indexs.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
               <folding>
                 <element signature="e#1433#2772#0" expanded="false" />
                 <element signature="e#2800#4973#0" expanded="false" />
@@ -138,8 +130,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="215">
+              <caret line="39" column="64" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -241,20 +233,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vue_webpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue_webpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue_webpack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -839,12 +817,12 @@
       <workItem from="1527660462934" duration="275000" />
       <workItem from="1527660829899" duration="30688000" />
       <workItem from="1527754463286" duration="14745000" />
-      <workItem from="1527832872831" duration="36482000" />
+      <workItem from="1527832872831" duration="37293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82190000" />
+    <option name="totallyTimeSpent" value="83001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1148,14 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1530">
@@ -1219,6 +1189,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/core/citySelected.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1231,8 +1209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/home/indexs.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
           <folding>
             <element signature="e#1433#2772#0" expanded="false" />
             <element signature="e#2800#4973#0" expanded="false" />

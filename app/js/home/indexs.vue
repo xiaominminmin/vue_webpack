@@ -95,7 +95,11 @@ export default {
       var evt = window.event || event
       var targetObj = evt.target || evt.srcElement
       if (targetObj.tagName.toLowerCase() === 'input') {
-        evt.stopPropagation()
+        if (evt.stopPropagation) {
+          evt.stopPropagation()
+        } else {
+          evt.cancelBubble = true
+        }
       } else {
         this.focusFlag = false
       }
